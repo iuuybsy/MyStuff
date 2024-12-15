@@ -1,6 +1,8 @@
+#include "implementation/exceptions.h"
 #include <iostream>
-using namespace std;
 
 int main() {
-    cout << "Hello World" << endl;
+    int x = 10;
+    MYSTUFF_DEBUG(x == 10);
+    MYSTUFF_DEBUG(x == 11);
 }
